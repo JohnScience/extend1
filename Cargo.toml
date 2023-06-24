@@ -1,0 +1,25 @@
+[package]
+name = "extend1"
+version = "0.1.0"
+authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
+edition = "2021"
+rust-version = "1.56.1" # https://github.com/foresterre/cargo-msrv/
+description = "Alternative to `Extend::extend_one` that is stable and does not require `#![feature(extend_one)]`."
+documentation = "https://docs.rs/extend1"
+readme = "README.md"
+repository = "https://github.com/JohnScience/extend1"
+license = "MIT OR Apache-2.0"
+# license-file | not needed
+keywords = ["extend_one", "macros"]
+categories = ["development-tools::procedural-macro-helpers"] # https://crates.io/category_slugs
+# workspace | not needed
+# build | not needed
+# links | not needed
+# exclude | not needed
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
+
+[dependencies]
+proc-macro2 = "1"
